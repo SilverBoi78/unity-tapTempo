@@ -23,6 +23,6 @@ public class PlayerMovement : MonoBehaviour
         }
 
         //player move forward on its own
-        rb.velocity = new Vector3(2f, rb.velocity.y, 0);
+        rb.velocity = new Vector3(4f, rb.velocity.y, 0);
     }
 }
